@@ -1,0 +1,28 @@
+body {
+    font-family: "PTSans NarrowBold", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #000000; 
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: "PTSans NarrowBold", "Arial", sans-serif ;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 42px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "PTSans NarrowBold", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+/* по-моему текст получается более растянутым, чем в макете, есть ошибки или это просто вопрос отображения у меня на компе? */
