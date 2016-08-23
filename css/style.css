@@ -1,6 +1,5 @@
 body {
-    min-width: 1200px;
-    min-height: 1173px;
+    min-width: 960px;
 }
 
 body {
@@ -19,7 +18,7 @@ body {
 }
 
 .container {
-    width: 960px;
+    width: 940px;
     margin: 0 auto;
     padding: 0 10px;
 }
