@@ -1,10 +1,70 @@
 body {
+    min-width: 1200px;
+    min-height: 1173px;
+}
+
+body {
     font-family: "PTSans NarrowBold", "Arial", sans-serif;
     font-size: 14px;
     font-weight: bold;
     line-height: 24px;
     color: #000000; 
     text-transform: uppercase;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.main-header {
+    margin-bottom: 56px;
+}
+
+.logo {
+    float: left;
+    width: 150px;
+}
+
+.main-navigation {
+    float: left;
+    width: 630px;
+}
+
+.user-block {
+    float: right;
+    width: 150px;
+}
+
+.breadcrumbs {
+    margin-bottom: 56px;
+}
+
+.catalog-page .content-left {
+    float: left;
+    width: 230px;
+}
+
+.catalog-page .content-right {
+    float: right;
+    width: 700px;
+}
+
+.item-card {
+    float: left;
+    width: 220px;
+    margin-right: 20px;
+}
+
+.item-card:nth-child(3n) {
+    margin-right: 0px;
 }
 
 h1 {
@@ -25,4 +85,43 @@ h2 {
     text-transform: uppercase;
 }
 
-/* по-моему текст получается более растянутым, чем в макете, есть ошибки или это просто вопрос отображения у меня на компе? */
+.main-footer {
+    margin-top: 50px;
+    padding-top: 58px;
+    padding-bottom: 40px;
+}
+
+.footer-contacts {
+    float: left;
+    width; 320px;
+    margin-right: 60px;
+}
+.footer-social {
+    float: left;
+    width: 180px;
+}
+.footer-copyright {
+    float: right;
+    width: 160px;
+}
+
+/* item-page */
+.item-page .content-left {
+    float: left;
+    width: 460px;
+}
+
+.item-page .content-right {
+    float: right;
+    width: 400px;
+}
+
+/* че-то не получилось с картинками, в чем ошибка? работает только при маргине 16 почему-то... */
+.small-image { 
+    margin-right: 20px;
+}
+
+.small-image:last-child { 
+    margin-right: 0px;
+}
+
