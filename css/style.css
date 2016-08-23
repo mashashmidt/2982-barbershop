@@ -116,13 +116,12 @@ h2 {
     width: 400px;
 }
 
-/* че-то не получилось с картинками, в чем ошибка? работает только при маргине 16 почему-то... */
 .small-image { 
     display: inline-block;
     margin-right: 20px;
 }
 
-.small-image:nth-child(3n) { 
+.small-image:last-child  { 
     margin-right: 0px;
 }
 
